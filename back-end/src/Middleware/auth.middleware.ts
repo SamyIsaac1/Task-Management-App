@@ -3,8 +3,8 @@ import {
   NestMiddleware,
   BadRequestException,
 } from '@nestjs/common';
-import { Request, Response, NextFunction } from 'express';
 import { JwtService } from '@nestjs/jwt';
+import { Request, Response, NextFunction } from 'express';
 import { UserService } from './../Sevice/user.service';
 
 @Injectable()

@@ -2,10 +2,10 @@ import { Injectable, NestMiddleware, BadRequestException } from '@nestjs/common'
 import { Request, Response, NextFunction } from 'express';
 import { plainToClass } from 'class-transformer';
 import { validateSync } from 'class-validator';
-import { CreateTaskDto } from '../dto/create-task.dto';
-import { LoginDto } from '../dto/login.dto';
-import { RegisterDto } from '../dto/register.dto';
-import { idParamDto } from 'src/dto/id.dto';
+import { CreateTaskDto } from './../dto/create-task.dto';
+import { LoginDto } from './../dto/login.dto';
+import { RegisterDto } from './../dto/register.dto';
+import { idParamDto } from './../dto/id.dto';
 
 @Injectable()
 export class ValidateTaskMiddleware implements NestMiddleware {
