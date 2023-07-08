@@ -24,7 +24,7 @@ export default function Report({ onHide, show, tasks }) {
       </Modal.Header>
       <Modal.Body>
         <div className="text-center">
-          <h3>Your Progress</h3>
+          <h3>Your Progress <i class="fa-solid fa-chart-column text-info"></i></h3>
           <div className="my-3">
             <span class="done p-2 rounded">
               {completedTasks}{" "}
