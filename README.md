@@ -142,7 +142,7 @@ Once the server is running, you can access Task App by opening your web browser 
 **Planning and Requirements Gathering**: Clearly defined the purpose, goals, and target audience of my web app. created a comprehensive plan.
 
 
-""Backend-first Approach"
+""Backend-first Approach""
 As A full- stack I prefer Backend- first Approach because In this approach I can focus on developing and implementing the server-side logic, APIs, and database structure before working on the user interface and frontend components. This approach allows for the backend functionality to be thoroughly tested and validated before integrating it with the frontend
 
 **Backend Development Process**: 
