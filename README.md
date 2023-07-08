@@ -143,7 +143,7 @@ Once the server is running, you can access Task App by opening your web browser 
 
 
 **Backend-first Approach**:
-As A full- stack I prefer Backend- first Approach because In this approach I can focus on developing and implementing the server-side logic, APIs, and database structure before working on the user interface and frontend components. This approach allows for the backend functionality to be thoroughly tested and validated before integrating it with the frontend
+As A full- stack I prefer Backend-first Approach because In this approach I can focus on developing and implementing the server-side logic, APIs, and database structure before working on the user interface and frontend components. This approach allows for the backend functionality to be thoroughly tested and validated before integrating it with the frontend
 
 **Backend Development Process**: 
 - Setup nest app 
