@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function NotFound() {
   return (
     <>
-      <section className="vh-100 vw-100 bg-NotFound">
+      <section className="vh-100  bg-NotFound">
         <div className="h-100 bg-cover-shadow d-flex justify-content-lg-start justify-content-center align-items-center text-light">
           <div className="ps-md-5 ms-md-5 p-md-3 p-5">
             <h3 className="fw-bolder col-lg-8 col-md-10 size-NotFound">

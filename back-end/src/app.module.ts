@@ -22,7 +22,7 @@ config()
 
 @Module({
   imports: [
-    MongooseModule.forRoot(process.env.DB_Atlas, {
+    MongooseModule.forRoot(process.env.DATABASE, {
       useUnifiedTopology: true,
     } as any),
     MongooseModule.forFeature([{ name: User.name, schema: UserSchema }]),
