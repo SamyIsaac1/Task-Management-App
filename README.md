@@ -68,27 +68,31 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    git clone https://github.com/SamyIsaac1/Task-Management-App.git
    ```
-2. Add .env file  
+
+
+2. cd ./backend
+   ```sh
+   npm install
+   npm start
+   ```
+   
+3. Add .env file  
    ```js
    DATABASE="mongodb://127.0.0.1:27017/DB_NAME"
    SECRET_KEY="secret-key"
    ```
 
-3. cd ./backend
+4. cd ./frontend
    ```sh
    npm install
    npm start
    ```
-4. Add .env file  
+
+5. Add .env file  
    ```js
    REACT_APP_BASE_URL="http://localhost:5000"
    ```
 
-5. cd ./frontend
-   ```sh
-   npm install
-   npm start
-   ```
 List of 3rd Parties.
 ```sh
 // backend
