@@ -70,27 +70,26 @@ To get a local copy up and running follow these simple example steps.
    ```
 
 
-2. cd ./backend
-   ```sh
-   npm install
-   npm start
-   ```
-   
-3. Add .env file  
+2. cd ./backend then Add .env file
    ```js
    DATABASE="mongodb://127.0.0.1:27017/DB_NAME"
    SECRET_KEY="secret-key"
    ```
-
-4. cd ./frontend
+3. open cmd
    ```sh
    npm install
    npm start
-   ```
+   ``` 
 
-5. Add .env file  
+4. cd ./frontend then Add .env file
    ```js
    REACT_APP_BASE_URL="http://localhost:5000"
+   ```
+
+5. open cmd  
+   ```sh
+   npm install
+   npm start
    ```
 
 List of 3rd Parties.
