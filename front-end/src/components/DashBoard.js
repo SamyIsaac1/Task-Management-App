@@ -8,7 +8,7 @@ import {
   getAllTasks,
   addNewTask,
   deleteTaskById,
-  updaeTaskById,
+  updateTaskById,
 } from "../api/taskApi";
 import Swal from "sweetalert2";
 
@@ -53,8 +53,8 @@ export default function DashBoard() {
           task._id === taskId ? { ...task, time_end: Date.now() } : task
         )
       );
-      localStorage.setItem("counterId", counterId.toString());
     }, 1000);
+    localStorage.setItem("counterId", counterId.toString());
     return counterId;
   }
 
@@ -132,7 +132,7 @@ export default function DashBoard() {
       status: "inprogress",
     };
 
-    updaeTaskById(id, updateTask).then((task) => {
+    updateTaskById(id, updateTask).then((task) => {
       setTasks((tasks) =>
         tasks.map((task) =>
           task._id === id
@@ -166,7 +166,7 @@ export default function DashBoard() {
       status: "done",
     };
 
-    updaeTaskById(id, updateTask).then((task) => {
+    updateTaskById(id, updateTask).then((task) => {
       // NetWork Error
       if (!task) return;
       setTasks((tasks) =>

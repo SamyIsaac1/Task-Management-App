@@ -36,7 +36,7 @@ export async function deleteTaskById(id) {
   }
 }
 
-export async function updaeTaskById(taskId,data) {
+export async function updateTaskById(taskId,data) {
   try {
     const check = await axiosInstance.patch(`/tasks/${taskId}`,data);
     if (check?.data) return check.data;
