@@ -120,7 +120,7 @@ chart.js
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-Once the server is running, you can access Task App by opening your web browser and navigating to http://localhost:5000
+Once the server is running, you can access Task App by opening your web browser and navigating to http://localhost:3000
 
 - you have to Sign in first
 ![](./Register.jpg)
